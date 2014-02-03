@@ -1,0 +1,22 @@
+
+/**
+ * trak.io
+ */
+
+.logo[data-logo="trak.io"] {
+  width: 3.72802866em;
+  /* (291.69/51.64) * (1-.17-.17) - 0 */
+}
+
+.logo[data-logo="trak.io"] > * {
+  background-image: url(images/logo.svg);
+  margin: .17em 0;
+}
+
+.logo[data-logo="trak.io"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="trak.io"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
